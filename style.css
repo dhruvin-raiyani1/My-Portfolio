@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero-section{
+    padding-top: 130px;
+    text-align: center;
+    height:auto;
+    padding-bottom: 40px;
+    background-image: linear-gradient(#3EADCF, #ABE9CD);
+}
+.hero-section img{
+    border-radius: 10px;
+}
+.hero-section h1{
+    font-size:50px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    color: aliceblue;
+    font-weight:bolder;
+}
+.hero-section p{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.btn{
+    padding-top: 8px;
+}
+.contact{
+    font-family: 'Ubuntu', sans-serif;
+    background: #ffffff;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    border-radius: 28px;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.contact:hover {
+    background: #000000;
+    color: #ffffff
+}
+
+.resume{
+    font-family: 'Ubuntu', sans-serif;
+    background: #000000;
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+.resume:hover {
+    background: #ffffff;
+    color: #000000
+}
+.resume i{
+    padding-right: 10px;
+}
+.contact i{
+    padding-right: 10px;
+}
+
+hr{
+    border: 5px dotted black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 10%;
+    margin: 0 auto;
+}
+/* 
+about section
+*/
+
+.about-section{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-section h1{
+    font-size: 35px;
+}
+.left-section{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.right-section{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.left-section table th, td {
+    padding: 5px;
+    text-align: left;
+  }
+.info-table{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.right-section p{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 12px
+}
+.right-section .date{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/*  Education section */
+.education-sec{
+    height: auto;
+    background-image: linear-gradient(#ABE9CD,#52A7C1);
+    margin-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.education-sec h1{
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.education{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+}
+.school{
+    text-align: center;
+    width: 50%;
+}
+.college{
+    text-align: center;
+    width: 50%;
+}
+.school a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+.college a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+.school i{
+    padding: 20px;
+}
+.college i{
+    padding: 20px;
+}
+.school span,p{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.college span,p{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.school p{
+    padding-top: 10px;
+}
+.college p{
+    padding-top: 10px;
+}
+#question{
+    visibility: hidden;
+}
+#hiring{
+    visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+    .left-section{
+        width: 100%;
+        flex-direction: row;
+    }
+    .right-section{
+        padding-top: 100px;
+        width: 100%;
+        flex-direction: row;
+     }
+}
+@media screen and (max-width: 900px) {
+    .school{
+        width: 100%;
+        flex-direction: row;
+    }
+    .college{
+        padding-top: 100px;
+        width: 100%;
+        flex-direction: row;
+     }
+}@media screen and (max-width: 375px){
+    
+    .resume{
+        margin-left: 18px;
+        display: block;
+      }
+      .contact{
+        margin-top: 20px;
+       display: block;
+      }
+      
+}
